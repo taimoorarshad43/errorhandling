@@ -23,6 +23,7 @@ let daysEarned = 0;
 
 for (let i = 0; i < numberOfOperations; i++)
 {
+    console.log("Operation num: ", i);
     try{
         mysteryOperation()
         daysEarned += daysOnSuccess;
